@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.header{
+    height: 72px;
+    outline: 1px solid rgb(247, 115, 240);
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.headerright{
+    
+}
+.logo{
+    width: 150px;
+}
+.search{
+    width: 400px ;
+    height: 40px;
+    outline: 1px solid #ccc;
+    display: flex;
+    margin-left: 25px;
+    border-radius: 3px;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+}
+.searchicon{
+    width: 20px;
+    height: 20px;
+     
+}
+.searchicon img{
+    width: 20px;
+    height: 20px;
+}
+form{
+    width: 100%;
+}
+.inputsearch{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+#closesearch{
+    display: none;
+}
+.searchresentmodel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 45px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    height: 400px;
+    width: 100%;
+    display: none;
+    padding: 15px;
+}
+.search:focus-within .searchresentmodel{
+    display: block;
+}
+.recent_icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.recent_items{
+    display: flex;
+    align-items: center;
+}
+/***right***/
+.mobileicon{
+    width: 25px;
+    margin: 5px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.download p{
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+
+}
+.profileandcart{
+    display: flex;
+    align-items: center;
+
+}
+.profileicon,
+.carticon{
+    width: 20px;
+}
+.profileandcard p{
+    margin: 0;
+    padding: 0;
+
+}
+.profile,
+.cart{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
